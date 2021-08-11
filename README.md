@@ -160,7 +160,9 @@ WHERE title LIKE('C%') AND length>90 AND rental_rate =2.99;
    LIMIT 4;
    ```
 
-   ## Patika.dev SQL Ödev 6
+  
+  
+  ## Patika.dev SQL Ödev 6
 
 1. **film** tablosunda bulunan **rental_rate** sütunundaki değerlerin ortalaması nedir?
 
