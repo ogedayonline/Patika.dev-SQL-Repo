@@ -34,6 +34,11 @@ WHERE first_name = 'Mary' ;
 SELECT * FROM film
 WHERE NOT length>50 AND NOT rental_rate =2.99 AND NOT rental_rate=4.99;
 ```
+
+
+
+
+
 ## Patika.dev SQL Ödev 2
 
 1. **film** tablosunda bulunan tüm sütunlardaki verileri replacement cost değeri 12.99 dan büyük eşit ve 16.99 küçük olma koşuluyla sıralayınız ( BETWEEN - AND yapısını kullanınız.)
@@ -56,6 +61,10 @@ WHERE first_name IN('Penelope','Nick','Ed');
 SELECT * FROM film
 WHERE rental_rate IN(0.99,2.99,4.99) AND replacement_cost IN(12.99, 15.99, 28.99);
 ```
+
+
+
+
 
 ## Patika.dev SQL Ödev 3
 
@@ -86,6 +95,12 @@ WHERE title ILIKE('%t%t%t%t%');
 SELECT * FROM film
 WHERE title LIKE('C%') AND length>90 AND rental_rate =2.99;
 ```
+
+
+
+
+
+
 
 ## Patika.dev SQL Ödev 4
 1. **film** tablosunda bulunan **replacement_cost** sütununda bulunan birbirinden farklı değerleri sıralayınız.
@@ -162,6 +177,12 @@ WHERE title LIKE('C%') AND length>90 AND rental_rate =2.99;
 
   
   
+  
+  
+  
+  
+  
+  
   ## Patika.dev SQL Ödev 6
 
 1. **film** tablosunda bulunan **rental_rate** sütunundaki değerlerin ortalaması nedir?
@@ -192,7 +213,15 @@ WHERE title LIKE('C%') AND length>90 AND rental_rate =2.99;
    ```
 
    
-   ## Patika.dev SQL Ödev 7
+  
+  
+  
+  
+  
+  
+  
+  
+  ## Patika.dev SQL Ödev 7
 
 1. **film** tablosunda bulunan filmleri **rating** değerlerine göre gruplayınız.
 
@@ -226,7 +255,12 @@ WHERE title LIKE('C%') AND length>90 AND rental_rate =2.99;
 
    
    
-   ## Patika.dev SQL Ödev 7
+  
+  
+  
+  
+  
+  ## Patika.dev SQL Ödev 7
 
 1. **test** veritabanınızda **employee** isimli sütun bilgileri id(INTEGER), name VARCHAR(50), birthday DATE, email VARCHAR(100) olan bir tablo oluşturalım.
 
