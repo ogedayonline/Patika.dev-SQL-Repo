@@ -260,7 +260,7 @@ WHERE title LIKE('C%') AND length>90 AND rental_rate =2.99;
   
   
   
-  ## Patika.dev SQL Ödev 7
+  ## Patika.dev SQL Ödev 8
 
 1. **test** veritabanınızda **employee** isimli sütun bilgileri id(INTEGER), name VARCHAR(50), birthday DATE, email VARCHAR(100) olan bir tablo oluşturalım.
 
@@ -354,7 +354,7 @@ DELETE FROM employee WHERE name='Michal';
 
 
 
-## Patika.dev SQL Ödev 8
+## Patika.dev SQL Ödev 9
 
 1. **city** tablosu ile **country** tablosunda bulunan şehir (city) ve ülke (country) isimlerini birlikte görebileceğimiz INNER JOIN sorgusunu yazınız.
 
